@@ -8,7 +8,7 @@ oc version
 ## This example, allows you to demonstrate using an Ansible Pre & Post job.
 1. Add the subscription to your Red Hat Advanced Cluster Management for Kubernetes HUB
 ```
-clone https://github.com/open-cluster-management/demo-subscription-gitops.git
+git clone https://github.com/hariwi/demo-subscription-gitops.git
 oc apply -k demo-subscription-gitops/ansible/subscription/
 ```
 ### Using
