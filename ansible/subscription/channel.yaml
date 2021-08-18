@@ -11,6 +11,6 @@ metadata:
   namespace: demo
 spec:
   type: GitHub
-  pathname: https://github.com/open-cluster-management/demo-subscription-gitops.git
+  pathname: https://github.com/hariwi/demo-subscription-gitops.git
   #secretRef:
   #  name: my-github-secret
