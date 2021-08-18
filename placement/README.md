@@ -9,7 +9,7 @@ oc version
 ### CLI: Activate a subscription (ONLY RUN ONCE)
 1. Add the subscription to your Red Hat Advanced Cluster Management for Kubernetes HUB
 ```
-clone https://github.com/open-cluster-management/demo-subscription-gitops.git
+git clone https://github.com/hariwi/demo-subscription-gitops.git
 oc apply -k demo-subscription-gitops/placement/subscription/
 ```
 ### Application Console: Create a new subscription
@@ -24,14 +24,14 @@ At least two clusters, each with a distinct label, one for development and one f
   * **Name:** `nginx`
   * **Namespace:** `nginx`
   * **Repository types** `Git`
-  * **URL** `https://github.com/open-cluster-management/demo-subscription-gitops.git`
+  * **URL** `https://github.com/hariwi/demo-subscription-gitops.git`
   * **Branch** `master`
   * ** Path** `placement/nginx
   * Select `Deploy application resources only on clusters matching specified labels`
   * Enter the label information for your development cluster
 4. Select `Add another repository`
   * **Repository types** `Git`
-  * **URL** `https://github.com/open-cluster-management/demo-subscription-gitops.git`
+  * **URL** `https://github.com/hariwi/demo-subscription-gitops.git`
   * **Branch** `production`
   * ** Path** `placement/nginx
   * Select `Deploy application resources only on clusters matching specified labels`
